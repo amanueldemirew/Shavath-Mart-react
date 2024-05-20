@@ -1,0 +1,273 @@
+.productlink {
+	position: relative;
+	text-decoration: none;
+}
+
+.reviewlists {
+	position: relative;
+	display: inline-block;
+	font-family: 'Rajdhani';
+	font-family: 'itim';
+
+}
+
+.revieworder {
+	position: relative;
+	display: inline-block;
+}
+
+.pagination {
+	position: relative;
+	display: block;	
+	font-family: 'Itim';
+	color: #2c06f0;
+}
+.nextbutton {
+	margin: 15px;
+	border: none;
+	font-family: 'Itim';
+	color: #2c06f0;
+	background-color: #ffffff;
+}
+.nextbutton:hover {
+	color: #bb1100;
+}
+.prevbutton {
+        margin: 15px;
+	border: none;
+	font-family: 'Itim';
+	color: #2c06f0;
+	background-color: #ffffff;
+
+}
+.prevbutton:hover {
+        color: #bb1100;
+}
+
+
+
+.detailadd {
+        position: relative;
+        display: inline-block;
+        margin-top : 2%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30%;
+        padding: 10px;
+	background-color: #ffbb00;
+        background-color: #2C2E7B;
+	background-color: #14cc60;
+	color: #000000;
+        color: #ffffff;
+        border-radius: 25px 25px 25px 25px;
+        font-family: 'Bellota';
+	margin-bottom: 5%;
+}
+
+.detailadd2 {
+        position: relative;
+        display: inline-block;
+        margin-top : 2%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 30%;
+        padding: 10px;
+	background-color: #ffbb00;
+        background-color: #2C2E7B;
+	background-color: #14cc60;
+	background-color: #eeeeee;
+	color: #000000;
+        color: #ffffff;
+        border-radius: 25px 25px 25px 25px;
+        font-family: 'Bellota';
+	margin-bottom: 5%;
+}
+
+.detailadd:hover {
+        background-color: #a818FF;
+        transition-property: background-color;
+        transition-duration: 0.4s;
+}
+
+
+.products {
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	margin-right: 5%;
+	border-radius: 25px 25px 25px 25px;
+	background-color: #ffbb00;
+	background-color: #eeeeee;
+        color: #ffffff;
+	color: #0670ec;
+	margin-bottom: 8%;
+	text-decoration: none;
+}
+
+.products:hover {
+	position: relative;
+	width: 260px;
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+.product {
+	margin-top: 70px;
+	display: inline-block;
+	position: relative;
+	left: 20%;
+	width: 80%;
+	text-decoration: none;
+}
+
+.productimage {
+	position: relative;
+	display: inline-block;
+	top: 22px;
+	width: 100%;
+	height: 175px;
+	margin-bottom: 22px;
+	text-decoration: none;
+}
+
+.productname {
+	position: relative;
+	justify-content: center;
+	left: 10%;
+	width: 60%;
+	font-family: 'Chakra Petch', sans-serif;
+	text-decoration: none;
+}
+
+.productprice {
+	position: relative;
+	justify-content: center;
+	font-size: 120%;
+	left: 8%;
+	font-family: 'Gugi', cursive;
+	text-decoration: none;
+}
+
+.productcolor {
+	position: relative;
+	justify-content: center;
+	left: 8%;
+	font-family: 'Black Ops One', cursive;
+	text-decoration: none;
+}
+
+@media (max-width: 900px) {
+	.products {
+		width: 200px;
+	}
+	.products:hover {
+		width: 250px;
+	}
+}
+
+@media (max-width: 770px) {
+	.product {
+		position: relative;
+		display: block;
+		left: 0%;
+		margin-left: 0px;
+		right: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	.products {
+		position: relative;
+		display: block;
+		left: 0px;
+		margin-left: 0px;
+		width: 90%;
+		margin-right: 0px;
+		right: 0px;
+		margin: 5%;
+		margin-bottom: 15%;
+	}
+	.products:hover {
+		width: 90%;
+	}
+	.productimage {
+		width: 100%;
+		height: 400px;
+	}
+	.productname {
+		left: 6%;
+		width: 0%;
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-top: 1%;
+		right: 0%;
+		width: 40%;
+		font-size: 90%;
+	}
+	.productprice {
+		left: 4%;
+		margin-left: 0%;
+		margin-right: 0%;
+		margin-top: 2%;
+		right: 0%;
+		width: 40%;
+	}
+	.productcolor {
+		position: relative;
+		display: none;
+		left: 5%;
+		margin-left: 0%;
+		margin-right: 0%;
+		right: 0%;
+	}
+	.detailadd {
+		margin-left: 37%;
+		margin-top: 2%;
+		margin-bottom: 7%;
+		width: 30%;
+	}
+	.productlink {
+		text-decoration: none;
+	}
+}
+@media (max-width: 450px) {
+	.detailadd {
+		margin-left: 40%;
+	}
+	.productimage {
+		height: 250px;
+	}
+}
+@media (max-width: 370px) {
+	.productname {
+		left: 7%;
+	}
+	.productprice {
+		left: 5%;
+	}
+	.productcolor {
+		left: 5%;
+	}
+	.detailadd {
+		margin-left: 30%;
+		width: 40%;
+	}
+}
+@media (max-width: 279px) {
+	.productname {
+		left: 8%;
+	}
+	.productprice {
+		left: 5%;
+	}
+	.productcolor {
+		left: 5%;
+	}
+	.detailadd {
+		margin-left: 30%;
+	}
+
+}
+@media (max-width: 235px) {
+	.detailadd {
+		margin-left: 30%;
+	}
+}
